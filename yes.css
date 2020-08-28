@@ -1,25 +1,25 @@
         body {
             border: 2px red;
             /* background-color: #00ff0e; */
+            background-color: gold;
         }
         
         p {
             color: white;
         }
         
-        .container {
+        .classic {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            margin-left: 100px;
         }
         
-        .container img {
-            width: 400px;
+        .classic img {
+            width: 300px;
             height: 400px;
+            margin: 20px;
             transition: all 1s;
         }
         
-        .container img:hover {
-            transform: scale(2.0);
+        .classic img:hover {
+            transform: scale(2.1);
         }
